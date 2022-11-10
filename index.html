@@ -1,0 +1,1353 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Cricket App</title>
+    <!-- Meta Tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--bootstrap css-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main Css -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!--Font Awesome File-->
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+
+    <!--Jquery ui file-->
+    <link type="text/css" rel="stylesheet" href="css/skeletabs.css" />
+
+
+</head>
+
+<body>
+
+    <div id="top-bar">
+        <div class="container">
+            <div class="row top-bar-row">
+                <div class="col-xs-4 col-lg-4">
+                    <div class="top-bar-iconn-par">
+                        <a href="https://discord.gg/eTFv9auQ"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-lg-4">
+                    <div class="top-bar-iconn-par">
+                        <a href="index.html"><img class="img-responsive" src="img/team/india.png" /></a>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-lg-4 text-right">
+                    <div class="top-bar-iconn-par">
+                        <i class="fa fa-bell"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--top bar end-->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div id="header-tabs">
+                        <ul class="main-menu-ul skltbs-tab-group">
+                            <li class="skltbs-tab-item"><a class="skltbs-tab" href="#cricket">
+                                    <p><img src="img/cricket-icon.png" class="img-responsive" /> </p>Cricket
+                                </a></li>
+                            <li class="skltbs-tab-item"><a class="skltbs-tab" href="#kabaddi">
+                                    <p><img src="img/kabaddi-icon.png" class="img-responsive" /> </p>Kabaddi
+                                </a></li>
+                            <li class="skltbs-tab-item"><a class="skltbs-tab" href="#football">
+                                    <p><img src="img/football-icon.png" class="img-responsive" /> </p>Football
+                                </a></li>
+                            <li class="skltbs-tab-item"><a class="skltbs-tab" href="#basketball">
+                                    <p><img src="img/basketball-icon.png" class="img-responsive" /> </p>Basketball
+                                </a></li>
+                        </ul>
+
+                        <div class="home-banner hidden-lg">
+                            <img src="img/sports_background.jpg" class="img-responsive" />
+                        </div>
+
+                        <div class="skltbs-panel-group main-ul-group">
+                            <div class="skltbs-panel" id="cricket">
+                                <ul class="cricket-ul skltbs-tab-group">
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#fixtures">Fixtures</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#live">Live</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#results">Results</a></li>
+                                </ul>
+                                <div class="skltbs-panel-group">
+                                    <div class="skltbs-panel bg-min" id="fixtures">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--fixtures-->
+                                    <div class="skltbs-panel bg-min" id="live">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                    <div class="skltbs-panel bg-min" id="results">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                </div>
+                                <!--cricket skltbs-panel-group-->
+                            </div>
+                            <!--cricket-->
+                            <div class="skltbs-panel" id="kabaddi">
+                                <ul class="cricket-ul skltbs-tab-group">
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#fixtures">Fixtures</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#live">Live</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#results">Results</a></li>
+                                </ul>
+                                <div class="skltbs-panel-group">
+                                    <div class="skltbs-panel bg-min" id="fixtures">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--fixtures-->
+                                    <div class="skltbs-panel bg-min" id="live">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                    <div class="skltbs-panel bg-min" id="results">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                </div>
+                                <!--cricket skltbs-panel-group-->
+                            </div>
+                            <div class="skltbs-panel" id="football">
+                                <ul class="cricket-ul skltbs-tab-group">
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#fixtures">Fixtures</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#live">Live</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#results">Results</a></li>
+                                </ul>
+                                <div class="skltbs-panel-group">
+                                    <div class="skltbs-panel bg-min" id="fixtures">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--fixtures-->
+                                    <div class="skltbs-panel bg-min" id="live">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                    <div class="skltbs-panel bg-min" id="results">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                </div>
+                                <!--cricket skltbs-panel-group-->
+                            </div>
+                            <div class="skltbs-panel" id="basketball">
+                                <ul class="cricket-ul skltbs-tab-group">
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#fixtures">Fixtures</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#live">Live</a></li>
+                                    <li class="skltbs-tab-item"><a class="skltbs-tab" href="#results">Results</a></li>
+                                </ul>
+                                <div class="skltbs-panel-group">
+                                    <div class="skltbs-panel bg-min" id="fixtures">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--fixtures-->
+                                    <div class="skltbs-panel bg-min" id="live">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4  col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                    <div class="skltbs-panel bg-min" id="results">
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="500"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="400"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/pak.png" class="img-responsive" />
+                                                <h4>pak</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                        <div class="row match-row">
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/australia.png" class="img-responsive" />
+                                                <h4>aus</h4>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-6">
+                                                <h6>Indian T20 League</h6>
+                                                <p>v<Span>S</Span></p>
+                                                <h5 class="timer" data-minutes-left="300"></h5>
+                                            </div>
+                                            <div class="col-xs-4 col-lg-3">
+                                                <img src="img/team/ind.png" class="img-responsive" />
+                                                <h4>Ind</h4>
+                                            </div>
+                                        </div>
+                                        <!--match-row-->
+                                    </div>
+                                    <!--live-->
+                                </div>
+                                <!--cricket skltbs-panel-group-->
+                            </div>
+                        </div>
+                        <!--header-skltbs-panel-group-->
+                    </div>
+                    <!--header-tabs-->
+                </div>
+                <div class="col-lg-7 desktop-info-col">
+                    <h2>DatSpor</h2>
+                    <p>India 's Ultimate Battle</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer id="footer" class="hidden-lg hidden-sm">
+        <ul class="footer-ul">
+            <li><a href="index.html">
+                    <p><img src="img/home-active.png" class="img-responsive" /> </p>Home
+                </a></li>
+            <li><a href="index.html">
+                    <p><img src="img/mycontest.png" class="img-responsive" /> </p>My Contest
+                </a></li>
+            <li><a href="index.html">
+                    <p><img src="img/wallet.png" class="img-responsive" /> </p>Wallet
+                </a></li>
+            <li><a href="index.html">
+                    <p><img src="img/more.png" class="img-responsive" /> </p>More
+                </a></li>
+        </ul>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/skeletabs.js"></script>
+    <script src="js/jquery.simple.timer.js"></script>
+    <script src="js/extrnal.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

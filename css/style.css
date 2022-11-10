@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*top bar css*/
+
+div#header-tabs {
+    margin-top: 20px;
+}
+
+div#top-bar {
+    background-color: #182152;
+    color: rgb(6, 238, 25);
+    padding: 10px;
+}
+
+div#top-bar img {
+    width: 60px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.top-bar-row {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-info-col {
+    color: rgb(255, 255, 255); 
+    margin-top: 260px;
+}
+
+.desktop-info-col p{
+    font-size: 21px;    
+}
+
+.desktop-info-col h2{
+    font-size: 100px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+
+ul.main-menu-ul {
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    padding: 18px 10px 2px 10px;
+}
+
+ul.main-menu-ul img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+ul.main-menu-ul li {
+    margin: 0 auto;
+}
+
+ul.cricket-ul {
+    display: flex;
+    background-color: #fff;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+ul.cricket-ul li a {
+    padding-bottom: 5px;
+}
+
+ul.cricket-ul li {
+    margin: 0 auto;
+}
+
+.main-ul-group {
+    background-color: #e9eef5;
+    padding: 20px 40px;
+    overflow: scroll;
+    height: 590px;
+    margin-top: -10px;
+}
+
+.match-row:first-child {
+    margin-top: 20px;
+}
+.match-row {
+    background-color: #fff;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 10px 20px #ddd;
+}
+
+.match-row img {
+    width: 60px;
+}
+
+h5.timer {
+    background-color: #ff2a82;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+    bottom: -25px;
+}
+
+.skltbs-tab-group li a:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+ul.main-menu-ul .skltbs-active a {
+    color: #ff2a82;
+    border-bottom: 4px solid #ff2a82 !important;
+}
+
+.skltbs-panel-group.main-ul-group:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+div#cricket:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+ul.main-menu-ul li a:hover {
+    border: none !important;
+    text-decoration: none;
+}
+
+ul.cricket-ul .skltbs-active a {
+    color: #0394fc !important;
+    border-bottom: 3px solid #0394fc;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../img/sports_background.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+ }
+} 
+
+@media screen and (max-width: 768px)  {
+
+ul.footer-ul li {
+    margin: 0 auto;
+}
+ul.footer-ul img {
+    width: 35px;
+    margin: 0 auto;
+}
+
+ul.footer-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.desktop-info-col {
+    display: none;
+}
+
+div#header-tabs {
+    margin-top: 0px;
+}
+
+ul.main-menu-ul {
+    padding: 10px 8px 2px 10px;
+}
+
+.match-row img {
+    margin: 0 auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
